@@ -1,0 +1,32 @@
+# Ambiente Virtual
+venv/
+
+# Arquivos de Compilação
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Arquivos de IDE (VSCode, PyCharm, etc)
+.vscode/
+.idea/
+
+# Arquivos do Sistema Operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de Log
+*.log
+
+# Arquivos de Backup
+*.bak
+*.swp
+
+# Arquivos do Jupyter Notebook
+.ipynb_checkpoints/
+
+# Pasta de dados
+data/
+
+# Arquivo de vendas
+vendas.csv

@@ -3,14 +3,13 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-
 # Função para carregar o CSV
 def carregar_csv(uploaded_file):
     return pd.read_csv(uploaded_file)
 
 # Função para calcular o total de vendas
 def calcular_total_venda(df):
-    df['Total Venda'] = df['Quantidade'] * df['Preço Unitario']
+    df['Total Venda'] = df['Quantidade'] * df['Preço Unitário']
     return df['Total Venda'].sum()
 
 # Função para calcular total de vendas por produto
